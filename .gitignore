@@ -1,0 +1,23 @@
+# standard python gitignore for venvs and packages
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Packages
+*.cpp
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+build/
+
+# conda / ds file that shouldn't be in the repo
+conda.yaml
+.ipynb_checkpoints
